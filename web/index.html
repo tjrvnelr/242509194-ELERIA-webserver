@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Codespace Web Server</title>
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 18px;
+            background: #2563eb;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-top: 0;
+            text-align: center;
+            color: #2563eb;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        li {
+            padding: 12px;
+            margin: 10px 0;
+            background: #f1f5f9;
+            border-left: 4px solid #2563eb;
+            border-radius: 4px;
+        }
+    </Style>
 </head>
 <body>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <h1>Welcome to My Web Server!</h1>
     <h2>Student Information</h2>
